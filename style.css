@@ -1,0 +1,251 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    height:5000px;
+    background-color: #fff;
+}
+.container .header
+{
+    width:100%;
+    height:170px;
+    border-bottom:2px solid #000;
+}
+.container .header .header1
+{
+    display: flex;
+    width:100%;
+    height:90px;
+    padding:0 150px 0 150px;
+}
+.container .header .header1 .header1-logo
+{
+    width:65%;
+    height:90px;
+    background-image: url('https://www.kapitalbank.az/assets/static/img/content/elements/svg/Logo--main.svg');
+    background-size:200px 100px;
+    background-repeat: no-repeat;
+}
+.container .header .header1 .header1-menu
+{
+    padding-top:45px;
+    width:35%;
+    height:90px;
+}
+.container .header .header1 .header1-menu ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.container .header .header1 .header1-menu ul li
+{
+    
+    font-family: sans-serif;
+    font-size:13px;
+    color:#333;
+}
+.container .header .header1 .header1-menu ul li:first-child
+{
+    color:#000;
+    font-weight: bold;
+}
+.container .header .header1 .header1-menu ul .location-icon
+{
+    color:rgb(214, 30, 10);
+    margin-right:5px;
+}
+.container .header .header1 .header1-menu ul li:last-child
+{
+    display: block;
+    width:30px;
+    height:30px;
+    padding:7px;
+    margin-top:-5px;
+    border:1px solid #f00;
+    color:#f00;
+    border-radius:10px;
+
+}
+.container .header .header2
+{
+    display: flex;
+    width:100%;
+    height:80px;
+    padding:0 150px 0 150px;
+    background-color:rgb(226, 231, 232);
+}
+.container .header .header2 .header2-menu
+{
+    width:75%;
+    height:70px;
+    padding-top:30px;
+}
+.container .header .header2 .header2-menu >ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.container .header .header2 .header2-menu >ul >li
+{
+    
+    width:auto;
+    height:50px;
+    font-family: sans-serif;
+    font-size:13px;
+    color:#333;
+}
+.container .header .header2 .header2-menu >ul >li:hover
+{
+    border-bottom:2px solid rgb(214, 30, 10);
+}
+.container .header .header2 .header2-menu >ul >li:hover .dropdown
+{
+    visibility:visible;
+}
+.container .header .header2 .header2-logo
+{
+    width:120px;
+    height:35px;
+    margin-top:15px;
+    margin-left:200px;
+    border:none;
+    border-radius:8px;
+    background-color: rgb(231, 90, 90);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight: bold;
+}
+.container .main
+{
+    position: relative;
+    width:100%;
+    height:2000px;
+    border-top:2px solid #fff;
+}
+.container .dropdown
+{
+    position:absolute;
+    top:170px;
+    left:0;
+    display:flex;
+    width:100%;
+    height:250px;
+    background-color: #fff;
+    visibility:hidden;
+    z-index:555;
+}
+.container  .dropdown .dropdown-left
+{
+    display: flex;
+    justify-content:space-between;
+    width:59%;
+    height:250px;
+    padding:50px 150px;
+}
+.container .dropdown .dropdown-left ul 
+{
+    list-style-type:none;
+    line-height:35px;
+}
+.container  .dropdown .dropdown-left ul li
+{
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:500;
+    color:#555
+}
+.container  .dropdown .dropdown-left ul:first-child li
+{
+    color:#000;
+}
+.container  .dropdown .dropdown-left ul:first-child li:first-child
+{
+    color:#f00;
+}
+.container .dropdown .dropdown-left ul li:hover
+{
+    color:#f00;
+}
+.container .dropdown .dropdown-right
+{
+    display:flex;
+    justify-content: space-between;
+    width:41%;
+    height:250px;
+    background-color:#eee;
+}
+.container .dropdown .dropdown-right .dropdown-right-info
+{
+    width:250px;
+    height:200px;
+    margin-top:41px;
+    margin-left:35px;
+}
+.container .dropdown .dropdown-right .dropdown-right-info .title
+{
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:#111;
+}
+.container  .dropdown .dropdown-right .dropdown-right-info .text
+{
+    margin-top:10px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:500;
+    color:#555;
+    line-height:20px;
+}
+.container  .dropdown .dropdown-right .dropdown-right-info .btn
+{
+    width:220px;
+    height:45px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+    background-color:rgb(231, 90, 90);
+    color:#fff;
+    padding:10px;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:500;
+}
+.container  .dropdown .dropdown-right .dropdown-right-img
+{
+    width:250px;
+    height:200px;
+    margin-top:20px;
+    margin-left:35px;
+    background-size:contain;
+    background-repeat:no-repeat ;
+}
+.container  .dropdown .dropdown-right .dropdown-right-img1
+{
+    background-image:url('https://www.kapitalbank.az/images/cards/D/birbank-cashback-debet1656680037.png?v=3');
+}
+.container  .dropdown .dropdown-right .dropdown-right-img2
+{
+    background-image:url('https://www.kapitalbank.az/assets/static/img/main-page/daily-loan3.png');
+}
+.container  .dropdown .dropdown-right .dropdown-right-img4
+{
+    background-image:url('https://www.kapitalbank.az/assets/static/img/menu/deposits.png');
+}
+.container  .dropdown .dropdown-right .dropdown-right-img5
+{
+    background-image:url('https://www.kapitalbank.az/assets/static/img/menu/bblogo.png');
+}
+.container  .dropdown .dropdown-right .dropdown-right-img6
+{
+    background-image:url('https://www.kapitalbank.az/images/cards/D/birbank-cashback-debet1656680037.png?v=3');
+}
