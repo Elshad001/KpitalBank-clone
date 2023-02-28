@@ -1,27 +1,15 @@
-/*
-const dropdown=document.querySelector('.dropdown');
-const header2Titles=document.querySelectorAll('.header2-menu ul li');
+const section1=document.querySelector('.section1');
+const prev=document.querySelector('.prev');
+const next=document.querySelector('.next');
 
-header2Titles.forEach((item)=>
+let scrollAmount=1500;
+
+next.addEventListener('click',()=>
 {
-    item.addEventListener('mouseover',()=>
-    {
-        dropdown.style.visibility='visible';
-    })
-
-    item.addEventListener('mouseout',()=>
-    {
-        dropdown.style.visibility='hidden';
-    })
+    section1.scrollLeft+=scrollAmount
 })
 
-dropdown.addEventListener('mouseover',()=>
+prev.addEventListener('click',()=>
 {
-    dropdown.style.visibility='visible'
+    section1.scrollLeft-=scrollAmount
 })
-
-dropdown.addEventListener('mouseout',()=>
-{
-    dropdown.style.visibility='hidden'
-})
-*/
